@@ -2,11 +2,11 @@
 
 #### 介绍
 
-一个精简的基于 SSM 框架开发的酒店管理信息系统，适用课程 Demo 或毕业设计，极简易读快速上手。
+一款基于 SSM 框架开发的酒店管理信息系统，适用课程 Demo 或毕业设计，代码简洁上手迅速。
 
-其主要功能包括对住客、房间和会员信息管理，同时可以下载房间及会员信息数据。
+满足基础的包括对住客、房间和会员信息的管理功能，同时支持导出房间及会员信息至 Excel。
 
-前端实现采用了传统 Layui-Qadmin 模板，整体简约大气，欢迎下载学习或二次开发。
+前端实现采用传统 Layui-Qadmin 模板，整体简约大气，欢迎下载学习或二次开发。
 
 #### 安装教程
 
@@ -14,7 +14,7 @@
 2. 修改 resources/properties/jdbc.properties 文件，配置数据库连接
 3. 导入hotel.sql 数据库文件
 
-> ps：JDK 版本 1.8、MySQL 版本 5.7 及以上、Tomcat 版本 8.0 及以上
+> _ps：JDK 版本 1.8、MySQL 版本 5.7 及以上、Tomcat 版本 8.0 及以上_
 
 #### 使用说明
 
@@ -26,16 +26,16 @@
 
 1. 登录页
    
-   ![login](assets/login.webp)
+   ![login](assets/login.png)
 2. 首页
    
-   ![index](assets/index.webp)
-3. 添加信息
+   ![index](assets/index.png)
+3. 信息添加页
    
-   ![add](assets/add.webp)
-4. 列表展示
+   ![add](assets/add.png)
+4. 列表展示页
    
-   ![list](assets/list.webp)
+   ![list](assets/list.png)
 
 ---
-原 Gitee 仓库永久关闭，现此作为为主仓库，目前版本不在更新，后续有计划更新为 SpringBoot + Vue 前后端分离架构。
+原 Gitee 仓库永久关闭，全部迁移至此作为主仓库，目前版本不在维护，后续有计划更新为 SpringBoot + Vue 前后端分离架构。

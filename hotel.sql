@@ -49,9 +49,7 @@ CREATE TABLE `guests`  (
   `num` int(10) NOT NULL,
   PRIMARY KEY (`id`) USING BTREE,
   INDEX `num`(`num`) USING BTREE,
-  INDEX `h_type`(`h_type`) USING BTREE,
-  CONSTRAINT `guests_ibfk_1` FOREIGN KEY (`num`) REFERENCES `home` (`num`) ON DELETE RESTRICT ON UPDATE RESTRICT,
-  CONSTRAINT `guests_ibfk_2` FOREIGN KEY (`h_type`) REFERENCES `home` (`h_type`) ON DELETE RESTRICT ON UPDATE RESTRICT
+  INDEX `h_type`(`h_type`) USING BTREE
 ) ENGINE = InnoDB AUTO_INCREMENT = 8 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
