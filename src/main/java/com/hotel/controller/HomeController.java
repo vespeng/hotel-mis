@@ -8,6 +8,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.servlet.ServletContext;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -21,10 +22,17 @@ public class HomeController {
     @Autowired
             HomeServiceImpl homeService;
 
+    @Autowired
+            ServletContext servletContext;
+
     @RequestMapping("/add")
     public String add(Home home, Model model) throws IOException{
         //定义文件保存的本地路径
-        String localPath="E:\\Java 项目\\hotel-mis\\src\\main\\webapp\\upload";
+        String localPath = servletContext.getRealPath("/upload/");
+        File uploadDir = new File(localPath);
+        if (!uploadDir.exists()) {
+            uploadDir.mkdirs();
+        }
         //定义 文件名
         String filename=null;
         if(!home.getFile().isEmpty()){
@@ -77,7 +85,11 @@ public class HomeController {
     @RequestMapping("/update2")
     public String update2(Home h)throws IOException{
         //定义文件保存的本地路径
-        String localPath="E:\\Java 项目\\hotel-mis\\src\\main\\webapp\\upload";
+        String localPath = servletContext.getRealPath("/upload/");
+        File uploadDir = new File(localPath);
+        if (!uploadDir.exists()) {
+            uploadDir.mkdirs();
+        }
         //定义 文件名
         String filename=null;
         if(!h.getFile().isEmpty()){
