@@ -117,8 +117,8 @@ INSERT INTO `home` VALUES (32, 502, '普通大床房', '220', '空房', '/upload
 INSERT INTO `home` VALUES (33, 503, '豪华大床房', '210', '空房', '/upload/7ed665426e0f4dc8ab38b08c717fb415.jpeg', '大气\r\n                        ');
 INSERT INTO `home` VALUES (34, 504, '高级大床房', '180', '空房', '/upload/08c44707b62d440898fd4c0f47a566f7.jpeg', '请填写房间相关信息......\r\n                        ');
 INSERT INTO `home` VALUES (36, 505, '豪华大床房', '300', '空房', '/upload/08d686af1445425c94828b96733ff9c7.jpeg', '请填写房间相关信息......\r\n                        ');
-INSERT INTO `home` VALUES (37, 505, '豪华大床房', '300', '空房', '/upload/9a42090e1dc7425db7f6c474ed82f51c.jpeg', '请填写房间相关信息......二\r\n                        ');
-INSERT INTO `home` VALUES (38, 506, '豪华大床房', '300', '空房', '/upload/16613f2b921347e6a4532f105d496d7a.jpeg', '请填写房间相关信息......\r\n                        飞洒发');
+INSERT INTO `home` VALUES (37, 505, '豪华大床房', '300', '空房', '/upload/9a42090e1dc7425db7f6c474ed82f51c.jpeg', '请填写房间相关信息......\r\n                        ');
+INSERT INTO `home` VALUES (38, 506, '豪华大床房', '300', '空房', '/upload/16613f2b921347e6a4532f105d496d7a.jpeg', '请填写房间相关信息......\r\n                        ');
 INSERT INTO `home` VALUES (39, 507, '豪华大床房', '120', '空房', '/upload/e0813248ae1c4c248cde47d5b395f49e.jpeg', '请填写房间相关信息......\r\n                        ');
 INSERT INTO `home` VALUES (40, 507, '豪华大床房', '120', '空房', '/upload/8daa1a44a0624688a919237bfc0d61ab.jpeg', '请填写房间相关信息......\r\n                        ');
 INSERT INTO `home` VALUES (41, 507, '豪华大床房', '120', '空房', '/upload/65d6891db61c4b1ebbf903ce46ec1b74.jpeg', '请填写房间相关信息......\r\n                        ');

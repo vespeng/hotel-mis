@@ -11,7 +11,7 @@
 
   <name>Hotel-MIS Maven Webapp</name>
   <!-- FIXME change it to the project's website -->
-  <url>https://gitee.com/vespeng/hotel-mis</url>
+  <url>https://github.com/vespeng/hotel-mis</url>
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
