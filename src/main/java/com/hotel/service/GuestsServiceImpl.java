@@ -37,5 +37,4 @@ public class GuestsServiceImpl implements GuestsService {
         return guestsMapper.queryGuestsByPhone(phone);
     }
 
-
 }

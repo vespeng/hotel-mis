@@ -69,4 +69,5 @@ public class GuestsController {
         mv.setViewName("guests_list");
         return mv;
     }
+
 }

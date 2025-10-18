@@ -1,7 +1,6 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html lang="zh">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -61,12 +60,10 @@
                     </div>
                 </div>
                 </form>
-
             </div>
 
-<%--            表格 --%>
+            <%--表格--%>
             <table class="layui-table layui-form">
-
                 <thead>
                 <tr>
                     <th>编号</th>

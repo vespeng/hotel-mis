@@ -11,8 +11,7 @@ public class Vip {
     private String StartTime;
     private String EndTime;
 
-    public Vip() {
-    }
+    public Vip() {}
 
     public Vip(int id, String name, String sex, long card, long phone, String v_Type, String startTime, String endTime) {
         Id = id;
@@ -102,4 +101,5 @@ public class Vip {
                 ", EndTime='" + EndTime + '\'' +
                 '}';
     }
+
 }

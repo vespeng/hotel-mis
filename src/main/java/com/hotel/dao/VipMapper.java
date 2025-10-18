@@ -19,4 +19,5 @@ public interface VipMapper {
     ArrayList<Vip> queryAllVip();
 
     Vip queryVipByPhone(String phone);
+
 }

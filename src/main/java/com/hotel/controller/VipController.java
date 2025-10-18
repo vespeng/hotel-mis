@@ -69,5 +69,5 @@ public class VipController {
         mv.setViewName("vip_list");
         return mv;
     }
-}
 
+}

@@ -7,4 +7,5 @@ public interface AdminService {
     int updatePwd (Admin admin);
 
     Admin findAdmin(String username,int password);
+
 }

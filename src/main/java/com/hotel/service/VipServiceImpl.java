@@ -11,7 +11,7 @@ import java.util.ArrayList;
 public class VipServiceImpl  implements VipService {
 
     @Autowired
-    VipMapper vipMapper;
+            VipMapper vipMapper;
 
     public int addVip(Vip vip) {
         return vipMapper.addVip(vip);
@@ -36,4 +36,5 @@ public class VipServiceImpl  implements VipService {
     public Vip queryVipByPhone(String phone) {
         return vipMapper.queryVipByPhone(phone);
     }
+
 }

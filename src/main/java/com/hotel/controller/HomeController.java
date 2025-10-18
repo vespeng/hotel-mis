@@ -150,4 +150,5 @@ public class HomeController {
         homeService.updateH_TypeById(home);
         return "redirect:/home/list";
     }
+
 }

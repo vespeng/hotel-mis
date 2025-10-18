@@ -21,5 +21,4 @@ public class AdminServiceImpl implements AdminService{
         return adminMapper.findAdmin(username,password);
     }
 
-
 }

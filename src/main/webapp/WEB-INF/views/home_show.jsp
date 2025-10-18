@@ -1,7 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <html lang="zh">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -11,7 +9,6 @@
     <script src="../views/static/common/layui/layui.js"></script>
     <script src="../views/static/common/jquery-3.3.1.min.js"></script>
     <script src="../views/static/common/vue.min.js"></script>
-
 </head>
 <body>
 <div id="app">
@@ -48,48 +45,48 @@
                 <legend>房间信息</legend>
             </fieldset>
 
-                <div class="layui-form-item">
-                    <label class="layui-form-label">房间号</label>
-                    <div class="layui-input-block">
-                        <input type="text" name="Price" required value="${home.num}" style="font-size: 15px" autocomplete="off" class="layui-input" readonly="readonly">
-                    </div>
+            <div class="layui-form-item">
+                <label class="layui-form-label">房间号</label>
+                <div class="layui-input-block">
+                    <input type="text" name="Price" required value="${home.num}" style="font-size: 15px" autocomplete="off" class="layui-input" readonly="readonly">
                 </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">房间类型</label>
+                <div class="layui-input-block">
+                    <input type="text" name="Price" required  value="${home.h_Type}"  style="font-size: 15px" autocomplete="off" class="layui-input" readonly="readonly">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">价格</label>
+                <div class="layui-input-block">
+                    <input type="text" name="Price" required  value="${home.price}" style="font-size: 15px" autocomplete="off" class="layui-input" readonly="readonly">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">状态</label>
+                <div class="layui-input-block">
+                    <input type="text" name="Price" required  value="${home.state}" style="font-size: 15px" autocomplete="off" class="layui-input" readonly="readonly">
+                </div>
+            </div>
+
+            <div class="layui-form-item">
+                <label class="layui-form-label">图片</label>
+                <div class="layui-input-block">
+                    <img src="${home.img}" width="700" height="400"/>
+                </div>
+            </div>
 
                 <div class="layui-form-item">
-                    <label class="layui-form-label">房间类型</label>
-                    <div class="layui-input-block">
-                        <input type="text" name="Price" required  value="${home.h_Type}"  style="font-size: 15px" autocomplete="off" class="layui-input" readonly="readonly">
+                    <label class="layui-form-label">房间描述</label>
+                    <div class="layui-input-inline">
+                <textarea name="Text" class="layui-input"  style="height:250px ;width: 600px" autocomplete="off"  required readonly="readonly">${home.text}
+                </textarea>
                     </div>
                 </div>
-
-                <div class="layui-form-item">
-                    <label class="layui-form-label">价格</label>
-                    <div class="layui-input-block">
-                        <input type="text" name="Price" required  value="${home.price}" style="font-size: 15px" autocomplete="off" class="layui-input" readonly="readonly">
-                    </div>
-                </div>
-
-                <div class="layui-form-item">
-                    <label class="layui-form-label">状态</label>
-                    <div class="layui-input-block">
-                        <input type="text" name="Price" required  value="${home.state}" style="font-size: 15px" autocomplete="off" class="layui-input" readonly="readonly">
-                    </div>
-                </div>
-
-                <div class="layui-form-item">
-                    <label class="layui-form-label">图片</label>
-                    <div class="layui-input-block">
-                        <img src="${home.img}" width="700" height="400"/>
-                    </div>
-                </div>
-
-                    <div class="layui-form-item">
-                        <label class="layui-form-label">房间描述</label>
-                        <div class="layui-input-inline">
-                    <textarea name="Text" class="layui-input"  style="height:250px ;width: 600px" autocomplete="off"  required readonly="readonly">${home.text}
-                    </textarea>
-                        </div>
-                    </div>
 
         </div>
     </div>

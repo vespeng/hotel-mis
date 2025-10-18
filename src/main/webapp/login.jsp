@@ -1,7 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <html lang="zh">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -10,9 +8,7 @@
     <link rel="stylesheet" href="${pageContext.request.contextPath}/static/admin/css/login.css">
     <script src="${pageContext.request.contextPath}/static/common/layui/layui.js"></script>
 </head>
-
 <body id="login">
-
 <div class="login">
     <h2> <strong><font face="仿宋" >温情小筑后台登陆</font></strong></h2>
 
@@ -39,7 +35,5 @@
     </form>
 
 </div>
-
 </body>
-
 </html>

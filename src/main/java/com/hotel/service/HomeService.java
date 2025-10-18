@@ -19,4 +19,5 @@ public interface HomeService {
     Home queryHomeByNum(int num);
 
     int updateH_TypeById(Home home);
+
 }

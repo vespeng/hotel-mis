@@ -12,7 +12,6 @@ public class HomeServiceImpl  implements HomeService{
     @Autowired
             HomeMapper homeMapper;
 
-
     public int addHome(Home home) {
         return homeMapper.addHome(home);
     }

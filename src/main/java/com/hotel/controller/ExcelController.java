@@ -21,13 +21,12 @@ import java.util.List;
 public class ExcelController {
 
     @Autowired
-    HomeServiceImpl homeService;
+            HomeServiceImpl homeService;
     @Autowired
-    VipServiceImpl vipService;
+            VipServiceImpl vipService;
 
     @RequestMapping("/home")
     public void excel_home(HttpServletResponse response )throws IOException {
-
         response.setCharacterEncoding("UTF-8");
         List<Home> homeList=homeService.queryAllHome();
         //创建excel文件
@@ -62,12 +61,10 @@ public class ExcelController {
         wb.write(ouputStream);
         ouputStream.flush();
         ouputStream.close();
-
     }
 
     @RequestMapping("/vip")
     public void excel_vip(HttpServletResponse response )throws IOException {
-
         response.setCharacterEncoding("UTF-8");
         List<Vip> vipList=vipService.queryAllVip();
         //创建excel文件
@@ -106,7 +103,6 @@ public class ExcelController {
         wb.write(ouputStream);
         ouputStream.flush();
         ouputStream.close();
-
     }
 
 }

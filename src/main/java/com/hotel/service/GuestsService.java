@@ -17,4 +17,5 @@ public interface GuestsService {
     ArrayList<Guests> queryAllGuests();
 
     Guests queryGuestsByPhone(String phone);
+
 }

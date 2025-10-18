@@ -19,4 +19,5 @@ public interface GuestsMapper {
     ArrayList<Guests> queryAllGuests();
 
     Guests queryGuestsByPhone(String phone);
+
 }

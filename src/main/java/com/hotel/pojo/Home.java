@@ -14,8 +14,7 @@ public class Home {
 
     private MultipartFile file;
 
-    public Home() {
-    }
+    public Home() {}
 
     public Home(Integer id, int num, String h_Type, String price, String state, String img, String text, MultipartFile file) {
         Id = id;
@@ -105,4 +104,5 @@ public class Home {
                 ", file=" + file +
                 '}';
     }
+
 }

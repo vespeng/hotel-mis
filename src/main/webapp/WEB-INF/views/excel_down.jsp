@@ -1,7 +1,5 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-
 <html lang="zh">
-
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -11,7 +9,6 @@
     <script src="../views/static/common/layui/layui.js"></script>
     <script src="../views/static/common/jquery-3.3.1.min.js"></script>
     <script src="../views/static/common/vue.min.js"></script>
-
 </head>
 <body>
 <div id="app">
@@ -69,16 +66,14 @@
         </div>
     </div>
 </div>
-
-    <script type="text/javascript">
-        function home(){
-            window.location.href="${pageContext.request.contextPath}/excel/home";
-        }
-        function vip(){
-            window.location.href="${pageContext.request.contextPath}/excel/vip";
-        }
-    </script>
- 
+<script type="text/javascript">
+    function home(){
+        window.location.href="${pageContext.request.contextPath}/excel/home";
+    }
+    function vip(){
+        window.location.href="${pageContext.request.contextPath}/excel/vip";
+    }
+</script>
 <script src="../views/static/admin/js/config.js"></script>
 <script src="../views/static/admin/js/script.js"></script>
 </body>

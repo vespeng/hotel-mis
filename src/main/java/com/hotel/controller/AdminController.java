@@ -16,15 +16,14 @@ public class AdminController {
 
     @RequestMapping("/login")
     public String login(String username, int password){
-
         Admin admin=adminService.findAdmin(username,password );
-       if(admin!=null){
+        if(admin!=null){
            if(admin.getPassword()==password){
                return "index";
            }else {
                 return "error";
            }
-       }
+        }
         return "error";
     }
 
@@ -34,4 +33,5 @@ public class AdminController {
         System.out.println(admin);
         return "suc_a";
     }
+
 }

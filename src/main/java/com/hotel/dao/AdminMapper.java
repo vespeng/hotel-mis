@@ -8,6 +8,6 @@ public interface AdminMapper {
 
     int updatePwd (Admin admin);
 
-   Admin findAdmin(String username,int password);
+    Admin findAdmin(String username,int password);
 
 }

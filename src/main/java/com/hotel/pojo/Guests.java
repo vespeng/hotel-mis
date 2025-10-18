@@ -25,8 +25,7 @@ public class Guests {
         H_Type = h_Type;
     }
 
-    public Guests() {
-    }
+    public Guests() {}
 
     public int getId() {
         return Id;
@@ -114,4 +113,5 @@ public class Guests {
                 ", H_Type='" + H_Type + '\'' +
                 '}';
     }
+
 }

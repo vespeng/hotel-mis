@@ -21,4 +21,5 @@ public interface HomeMapper {
     Home queryHomeByNum(int num);
 
     int updateH_TypeById(Home home);
+
 }

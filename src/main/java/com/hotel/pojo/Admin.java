@@ -10,8 +10,7 @@ public class Admin {
         this.password = password;
     }
 
-    public Admin() {
-    }
+    public Admin() {}
 
     public String getUsername() {
         return username;
@@ -36,4 +35,5 @@ public class Admin {
                 ", password=" + password +
                 '}';
     }
+
 }

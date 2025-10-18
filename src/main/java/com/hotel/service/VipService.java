@@ -17,4 +17,5 @@ public interface VipService {
     ArrayList<Vip> queryAllVip();
 
     Vip queryVipByPhone(String phone);
+
 }
